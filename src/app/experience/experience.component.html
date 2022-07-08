@@ -1,0 +1,29 @@
+<div class="container">
+  <mat-card class="experience__card">
+    <mat-card-content *ngFor="let item of education">
+      <mat-card>
+        <mat-card-title>
+          <mat-icon aria-hidden="false" aria-label="School Icon">school</mat-icon>
+          {{item.title}}
+        </mat-card-title>
+        <mat-card-subtitle>{{item.dateRange}}</mat-card-subtitle>
+        <mat-card-content>{{item.description}}</mat-card-content>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="experience__card">
+    <mat-card-content *ngFor="let item of experience">
+      <mat-card>
+        <mat-card-title>
+          <mat-icon aria-hidden="false" aria-label="Work Icon">work</mat-icon>
+          {{item.title}}
+        </mat-card-title>
+        <mat-card-subtitle>{{item.dateRange}}</mat-card-subtitle>
+        <mat-card-content>
+          {{item.description}}
+        </mat-card-content>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+</div>

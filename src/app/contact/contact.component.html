@@ -1,0 +1,43 @@
+<div class="container">
+  <mat-card class="contact__card">
+    <mat-card-header>
+      <mat-card-title>
+        Get in Touch
+      </mat-card-title>
+    </mat-card-header>
+    <mat-list>
+      <mat-list-item>
+        <a color="primary" class="contact__button" mat-raised-button [href]="'tel: ' + phone">
+          <div class="contact__button-inner">
+            <mat-icon aria-hidden="false" aria-label="Phone Icon">phone</mat-icon>
+            <span class="contact__button-text">Phone</span>
+          </div>
+        </a>
+      </mat-list-item>
+      <mat-list-item>
+        <a color="primary" class="contact__button" mat-raised-button [href]="'mailto: ' + email">
+          <div class="contact__button-inner">
+            <mat-icon aria-hidden="false" aria-label="Email Icon">email</mat-icon>
+            <span class="contact__button-text">Email</span>
+          </div>
+        </a>
+      </mat-list-item>
+      <mat-list-item>
+        <a color="primary" class="contact__button" mat-raised-button href="{{githubLink}}" target="_blank">
+          <div class="contact__button-inner">
+            <mat-icon aria-hidden="false" aria-label="Hub Icon">hub</mat-icon>
+            <span class="contact__button-text">GitHub</span>
+          </div>
+        </a>
+      </mat-list-item>
+      <mat-list-item>
+        <a color="primary" class="contact__button" mat-raised-button href="{{linkedinLink}}" target="_blank">
+          <div class="contact__button-inner">
+            <mat-icon aria-hidden="false" aria-label="Groups Icon">groups</mat-icon>
+            <span class="contact__button-text">LinkedIn</span>
+          </div>
+        </a>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>

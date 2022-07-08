@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: slategray;
+  color: whitesmoke;
+  font-family: "Rubik", sans-serif;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}

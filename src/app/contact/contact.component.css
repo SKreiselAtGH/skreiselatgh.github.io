@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__card {
+  height: 40%;
+  width: 20%;
+  min-width: 10em;
+}
+
+.contact__button {
+  width: 100%;
+}
+
+.contact__button-inner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact__button-text {
+  width: 100%;
+}
+
+mat-icon {
+  min-width: 1em;
+}
